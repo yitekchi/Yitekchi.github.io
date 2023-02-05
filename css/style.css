@@ -11,6 +11,8 @@
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+
 .topnav {
     background: #1e1a1a;
     color: aliceblue;
@@ -140,4 +142,183 @@ section.service {
     -moz-transition: all .5s ease 0s;
     -o-transition: all .5s ease 0s;
     transition: all .5s ease 0s;
+}
+section.upcoming-meetings{
+ background-image: url(../image/meetings-bg.jpg);
+ background-position: center center;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-top: 230px;
+ padding-bottom: 90px;
+}
+section.upcoming-meetings .categories{
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 40px;
+    margin-right: 45px;
+}
+section.upcoming-meetings .categories h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1818;
+    margin-bottom: 25px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ededed;
+}
+section.upcoming-meetings .categories ul li{
+  display: inline-block;
+  margin-bottom: 15px;
+}
+section.upcoming-meetings .categories ul li a{
+    font-size: 15px;
+    color: #1a1818;
+    font-weight: 500;
+    text-decoration: none;
+    
+
+  }
+  section.upcoming-meetings .categories ul li a:hover{
+    color: #929292;
+  }
+  section.upcoming-meetings .categories .main-button{
+    border-top: 1px solid #eee;
+    padding-top: 5px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    background-color: #9b2a2a;
+    border-radius: 24px;
+    text-align: center;
+  }
+  section.upcoming-meetings .categories .main-button a{
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    color: #eee;
+    font-weight: 700;
+  }
+  .meeting-item{
+    margin-bottom: 30px;
+  }
+  .meeting-item .thumb{
+   position: relative;
+  }
+  .meeting-item .thumb img{
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   width: 100%;
+   }
+   .meeting-item .thumb .price{
+    position: absolute;
+    left: 24px;
+    top: 20px;
+    }
+    .meeting-item .thumb .price span{
+        font-size: 16px;
+        color: #1a1818;
+        font-weight: 600;
+        background-color: #f3f3f3;
+    padding: 7px 13px;
+        border-radius: 10px;
+        }
+        .meeting-item .down-content {
+            background-color: white;
+    padding: 19px 20px 30px 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+        }
+        .meeting-item .down-content .date{
+            float: left;
+            text-align: center;
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .meeting-item .down-content .date h6{
+          font-size: 14px;
+          text-transform: uppercase;
+          font-weight: 600;
+          color: #a12e2e;
+
+        }
+        .meeting-item .down-content .date h6 span{
+           display: block;
+           color: #1a1818;
+           font-size: 22px;
+           margin-top: 7px;
+            
+          }
+          .meeting-item .down-content h4{
+        font-size: 18px;
+        color: #1a1818;
+        font-weight: 600;
+        display: inline-block;
+        margin-bottom: 10px;
+             
+           }
+           .meeting-item .down-content p{
+            margin-left: 30px;
+            color: #1a1818;
+            font-size: 12px;
+                 
+               }
+
+section.apply-now{
+    background-image: url(../image/apply-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0px;
+  
+}  
+section.apply-now .items{
+    background-color: rgb(250 250 250 / 16%);
+    padding: 40px;
+    margin-bottom: 25px;
+}
+section.apply-now .items h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}   
+
+section.apply-now .items p{
+    color: #fff;
+    margin-bottom: 15px;
+}
+section.apply-now .items .main-button{
+    border-top: 1px solid #eee;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    background-color: #9b2a2a;
+    border-radius: 24px;
+    text-align: center;
+    width: 40%;
+  }
+  section.apply-now .items .main-button a{
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    color: #eee;
+    font-weight: 700;
+  }
+  section.apply-now .accordions{
+    background-color: #eee;
+    border-radius: 18px;
+    padding: 40px;
+    text-align: center;
+  }
+  section.apply-now .accordions .accordion .frist-expended{
+   color: burlywood;
+  }
+
+  section.apply-now .accordions .accordion .head{
+    font-size: 1.3rem;
+    font-weight: 800;
 }
